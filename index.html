@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Integration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #chat-container {
+            margin-top: 20px;
+        }
+        #response {
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            min-height: 50px;
+        }
+    </style>
+</head>
+<body>
 
+    <h1>Chat with ChatGPT</h1>
+    <textarea id="user-input" rows="4" cols="50" placeholder="Type your message here..."></textarea>
+    <br>
+    <button id="send-button">Send</button>
+
+    <div id="chat-container">
+        <h3>Response:</h3>
+        <div id="response"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
